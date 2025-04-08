@@ -11,7 +11,7 @@
 🛠 **Tecnologías:** Oracle Database, SQL*Plus  
 
 📋 **Descripción:**  
-Sistema completo de facturación con:  
+Este proyecto consiste en un sistema de facturación completo, diseñado en Oracle SQL. Se implementaron las siguientes funcionalidades clave:  
 - Creación de tablespaces (`DATOS`, `INDICES`)  
 - 5 tablas relacionadas (Clientes, Productos, Transacciones, Detalle_Factura y Encabezado)  
 - Validaciones con constraints (`CHECK`, `PK`, `FK`)  
