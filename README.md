@@ -13,15 +13,8 @@
 📋 **Descripción:**  
 Sistema completo de facturación con:  
 - Creación de tablespaces (`DATOS`, `INDICES`)  
-- 5 tablas relacionadas (Clientes, Productos, Transacciones)  
+- 5 tablas relacionadas (Clientes, Productos, Transacciones, Detalle_Factura y Encabezado)  
 - Validaciones con constraints (`CHECK`, `PK`, `FK`)  
-
-📂 **Archivos:**  
-- [Script SQL](./proyecto-facturacion/SistemaFacturacion.sql)  
-- [Documentación técnica](./proyecto-facturacion/README.md)  
-
-🖼️ **Diagrama:**  
-![ER Diagram](./proyecto-facturacion/images/diagrama-er.png)  
 
 🚀 **Cómo ejecutar:**  
 ```sql
