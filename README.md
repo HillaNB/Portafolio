@@ -1,25 +1,47 @@
 # 💻 Portafolio 
-**Nombre:** Hillary Blandón Brenes
-**Universidad:** Universidad Hispanoamericana
 
-## 📂 Proyectos
+**👩‍💻 Nombre:** Hillary Blandón Brenes  
+**🏫 Universidad:** Universidad Hispanoamericana  
 
 ---
 
-### 1. 🏦 Sistema de Facturación Oracle SQL  
+## 📂 Proyectos
 
-📅 **Fecha:** Octubre 2024 
-## ⚙️ Tecnologías y Herramientas
+### 1. 🏦 Sistema de Facturación - Oracle SQL  
+
+📅 **Fecha:** Octubre 2024  
+
+---
+
+### 📋 Descripción
+Este proyecto consiste en un sistema de facturación completo, diseñado e implementado utilizando Oracle SQL. Su objetivo principal es facilitar la gestión de facturas, clientes y productos, proporcionando una base de datos robusta y consultas eficientes para las operaciones de facturación.
+
+---
+
+### ⚙️ Tecnologías y Herramientas
 - Oracle SQL
-- SQL*Plus o SQL Developer
+- SQL*Plus / SQL Developer
 
-📋 **Descripción:**  
-Este proyecto consiste en un sistema de facturación completo, diseñado en Oracle SQL. Se implementaron las siguientes funcionalidades clave:  
-- Creación de tablespaces (`DATOS`, `INDICES`)  
-- 5 tablas relacionadas (Clientes, Productos, Transacciones, Detalle_Factura y Encabezado)  
-- Validaciones con constraints (`CHECK`, `PK`, `FK`)  
+---
 
-🚀 **Cómo ejecutar:**  
-```sql
-conn sys/506UH as sysdba;
-@SistemaFacturacion.sql
+### 🧱 Funcionalidades Implementadas
+
+- 📁 **Creación de Tablespaces:** `DATOS`, `INDICES`
+- 🧾 **Tablas Relacionadas:**  
+  - `Clientes`  
+  - `Productos`  
+  - `Transacciones`  
+  - `Detalle_Factura`  
+  - `Encabezado`
+- ✅ **Validaciones con Constraints:**  
+  - Llaves primarias (`PRIMARY KEY`)  
+  - Llaves foráneas (`FOREIGN KEY`)  
+  - Restricciones de datos (`NOT NULL`, `CHECK`)  
+
+---
+
+### 🚀 Cómo Ejecutar el Proyecto
+
+1. Conectarse como SYSDBA:
+   ```sql
+   conn sys/506UH as sysdba;
