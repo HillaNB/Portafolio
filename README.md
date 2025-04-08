@@ -8,10 +8,10 @@
 
 ### 1. 🏦 Sistema de Facturación Oracle SQL  
 
-[![Licencia](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ## Descripción del Proyecto
-
-📅 **Fecha:** Octubre 2024  
-🛠 **Tecnologías:** Oracle Database, SQL*Plus  
+📅 **Fecha:** Octubre 2024 
+## ⚙️ Tecnologías y Herramientas
+- Oracle SQL
+- SQL*Plus o SQL Developer
 
 📋 **Descripción:**  
 Este proyecto consiste en un sistema de facturación completo, diseñado en Oracle SQL. Se implementaron las siguientes funcionalidades clave:  
